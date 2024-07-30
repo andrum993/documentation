@@ -137,6 +137,8 @@ The `BOOT_ORDER` property defines the sequence for the different boot modes. It 
 | Try NVMe first, followed by USB-MSD then repeat
 |===
 
+NOTE: if no BOOT_ORDER is specified, the bootloader will default to using a boot order of 0x41.
+
 [[MAX_RESTARTS]]
 ==== `MAX_RESTARTS`
 
